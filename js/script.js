@@ -1,7 +1,7 @@
 /* Execution du script aprés le changement du DOM, cette ligne s'assure que le script
  s'execute uniquement après que tout le contenu HTML soit chargé
   et que le DOM soit complètement chargé.*/
-
+let panier = [];
 document.addEventListener("DOMContentLoaded", function(){
     // Sélection des élements HTML dont on a besoin 
     // Selectionner toutes les boutons plus
